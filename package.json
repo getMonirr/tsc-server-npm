@@ -3,6 +3,11 @@
   "version": "2.0.2",
   "description": "A package for creating TypeScript Node.js Express server boilerplate with modular architecture and essential features.",
   "main": "index.js",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/getMonirr/tsc-server-npm.git"
+  },
   "bin": {
     "create-tsc-server": "./index.js",
     "tsc-module": "./module.js"
