@@ -1,0 +1,32 @@
+{
+  "name": "create-tsc-server",
+  "version": "2.0.2",
+  "description": "A package for creating TypeScript Node.js Express server boilerplate with modular architecture and essential features.",
+  "main": "index.js",
+  "bin": {
+    "create-tsc-server": "./index.js",
+    "tsc-module": "./module.js"
+  },
+  "dependencies": {
+    "commander": "^8.0.0",
+    "simple-git": "^3.0.0",
+    "fs-extra": "^10.0.0"
+  },
+  "keywords": [
+    "typescript",
+    "server",
+    "boilerplate",
+    "express",
+    "node",
+    "cli",
+    "mongodb",
+    "jwt",
+    "authentication",
+    "rest-api",
+    "starter-kit",
+    "backend",
+    "scaffolding",
+    "typescript-node",
+    "typescript-express"
+  ]
+}
