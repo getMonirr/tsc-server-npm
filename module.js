@@ -19,7 +19,13 @@ const createModule = (name) => {
   ];
   const nameCapitalized = name.charAt(0).toUpperCase() + name.slice(1);
 
-  const targetDir = path.join(process.cwd(), "src", "modules", nameCapitalized);
+  const targetDir = path.join(
+    process.cwd(),
+    "src",
+    "app",
+    "modules",
+    nameCapitalized
+  );
 
   if (fs.existsSync(targetDir)) {
     console.error(`Module directory ${name} already exists.`);
